@@ -1,3 +1,42 @@
-h1 {
-    color: red;
+:root {
+--header-bg: #00C5EB4D;
+--second-bg: #06071B;
+--font-main: #FFFFFF;
+--font-second: #000000;
+--btn-color: #00C5EB;
+--cards-color: #B544FE80;
+--slider-point: #939EAC;
 }
+
+body {
+    font-family: "Inter", serif;
+}
+
+.header {
+    background: var(--header-bg);
+}
+
+.header-logo {
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 1.21;
+    text-decoration: none;
+    color: var(--font-main);
+}
+
+.header-list {
+list-style: none;
+}
+
+.header-item {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 1.25;
+    text-transform: uppercase;
+}
+
+.header-link {
+    text-decoration: none;
+    color: var(--font-main);
+}
+
