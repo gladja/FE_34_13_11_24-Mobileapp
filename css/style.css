@@ -1,5 +1,5 @@
 :root {
-  --header-bg: #00c5eb4d;
+  --header-bg: #0948554d;
   --second-bg: #06071b;
   --font-main: #ffffff;
   --font-second: #000000;
@@ -20,6 +20,7 @@ body {
 
 .header {
   background: var(--header-bg);
+  padding: 19px 0;
 }
 
 .header-flex {
@@ -54,6 +55,45 @@ body {
   color: var(--font-main);
 }
 
-h1 {
-  /* font-size: 60px; */
+.hero {
+  padding: 146px 0;
+}
+
+.hero-title {
+  padding-bottom: 12px;
+}
+
+.hero-text {
+  padding-bottom: 28px;
+}
+
+.hero-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding-bottom: 60px;
+}
+
+.hero-btn {
+  border-radius: 5px;
+  /* background: linear-gradient(90deg, #00c5eb -1.97%, #b544fe 89.43%); */
+  background-color: var(--btn-color);
+  border: none;
+  padding: 12px 60px;
+}
+
+.hero-btn:hover {
+  background-color: var(--cards-color);
+}
+
+.features-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.features-item {
+  width: 608px;
+}
+.item-text {
+  width: 220px;
 }
