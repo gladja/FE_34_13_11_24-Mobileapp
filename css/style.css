@@ -128,10 +128,22 @@ body {
 
 .hero-title {
   padding-bottom: 12px;
+  color: var(--font-main);
+
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
 }
 
 .hero-text {
   padding-bottom: 28px;
+  color: var(--font-main);
+
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
 }
 
 .hero-list {
@@ -145,6 +157,12 @@ body {
 }
 .hero-item {
   padding-left: 20px;
+  color: var(--font-main);
+
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
   position: relative;
 }
 .hero-item::before {
@@ -180,6 +198,12 @@ body {
 .features-title {
   padding-bottom: 80px;
   text-align: center;
+  color: var(--font-second);
+
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
 }
 
 .features-text {
@@ -187,6 +211,14 @@ body {
   text-align: center;
   inline-size: 886px;
   margin: 0 auto;
+
+  color: #000;
+  text-align: center;
+
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: calc(24 / 16); /* 150% */
 }
 
 .features-list {
@@ -208,6 +240,12 @@ body {
 
 .features-sub__title {
   padding-bottom: 12px;
+  color: #000;
+
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: calc(24 / 16);
 }
 
 .team {
@@ -232,7 +270,16 @@ body {
 
 .team-item {
   padding: 14px 12px 12px;
-  background: var(--cards-color);
+  color: var(--font-main);
+  background: linear-gradient(
+      313deg,
+      rgba(0, 197, 235, 0.5) -0.2%,
+      rgba(181, 68, 254, 0.5) 112.66%
+    ),
+    #06071b;
+
+  backdrop-filter: blur(17.5px);
+  /* background: var(--cards-color); */
   /* text-align: center; */
   border-radius: 15px;
 }
