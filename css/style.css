@@ -248,6 +248,39 @@ body {
   line-height: calc(24 / 16);
 }
 
+.video-list {
+  display: flex;
+  gap: 20px;
+}
+
+.video-item {
+  width: 60px;
+  height: 60px;
+  background-image: linear-gradient( to right, #00C5EB, #B544FE);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.video-item:hover {
+  background-image: linear-gradient( to left, #00C5EB, #B544FE);
+}
+
+.video-link {
+  width: 60px;
+  height: 60px;
+}
+
+.video-item > .video-link > .video-icon:hover {
+  fill: black;
+}
+.video-icon {
+  height: 32px;
+  width: 32px;
+  fill: white;
+}
+
 .team {
   text-align: center;
   padding-top: 80px;
